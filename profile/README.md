@@ -33,8 +33,8 @@ python my_agent.py  # your code, unchanged, now verified
 
 ### Links
 
-- 🌐 [quorum.dev](https://quorum.dev)
-- 📐 [The compound accuracy calculator](https://quorum.dev/accuracy)
-- 📖 [Documentation](https://quorum.dev/docs)
+- 🌐 [quorumhq.xyz](https://quorumhq.xyz)
+- 📐 [The compound accuracy calculator](https://quorumhq.xyz/accuracy)
+- 📖 [Documentation](https://quorumhq.xyz/docs)
 
 Open core — MIT-licensed runtime, commercial cloud. Built by the team behind [Avail](https://availproject.org).
