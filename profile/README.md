@@ -1,19 +1,21 @@
 ## Quorum
 
-**The accuracy layer for AI agent workflows.**
+**Three products. One suite. Make AI-powered products work, understand why, and act on it.**
 
-AI agent workflows fail because errors compound at every step. 85% per-step accuracy across 12 steps = 14% end-to-end success. Quorum intercepts errors at runtime — with verification, multi-model consensus, and self-healing — so your pipeline succeeds instead of silently failing.
+### Products
 
-### How it works
+| Product | What | For | Repo |
+|---------|------|-----|------|
+| **Accuracy** | Runtime that intercepts AI agent errors with verification, multi-model consensus, and self-healing. 85% per-step × 12 steps = 14% success. Quorum fixes that. | Engineering teams | [quorum](https://github.com/quorumhq/quorum) |
+| **Insights** | AI-powered product analytics intelligence. Connects to PostHog, Amplitude, or any analytics source. Tells you *what's driving your metrics* — not just what happened. | Product teams | [quorum-insights](https://github.com/quorumhq/quorum-insights) |
+| **Actions** | Automated playbook engine. Monitors your metrics, intervenes when things go wrong, measures the result. | Growth teams | [quorum-actions](https://github.com/quorumhq/quorum-actions) |
 
-1. **Verify** — Schema checks, range validation, LLM-as-judge on every step output
-2. **Consensus** — Run critical steps across multiple models, take the majority answer
-3. **Self-heal** — When verification catches an error, retry with a different strategy automatically
+Each product works standalone. Together, they connect — AI quality becomes a first-class dimension in your analytics and automation.
 
 ### Get started
 
 ```bash
-# Scan your codebase — see your compound accuracy number
+# Scan your agent codebase — see your compound accuracy number
 pip install quorum-chaos
 quorum-chaos scan ./my_agent/
 
@@ -21,14 +23,6 @@ quorum-chaos scan ./my_agent/
 export OPENAI_BASE_URL=http://localhost:8741/v1
 python my_agent.py  # your code, unchanged, now verified
 ```
-
-### Products
-
-| Product | What | Repo |
-|---------|------|------|
-| **Accuracy** | Rust runtime — verification, consensus, self-healing, pipeline orchestration | [quorum](https://github.com/quorumhq/quorum) |
-| **Insights** | AI-powered product analytics. Connects to PostHog/Amplitude/any source. | [quorum-insights](https://github.com/quorumhq/quorum-insights) |
-| **Actions** | Automated playbook engine. Monitors metrics, intervenes, measures. | [quorum-actions](https://github.com/quorumhq/quorum-actions) |
 
 ### Ecosystem
 
