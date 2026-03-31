@@ -6,7 +6,7 @@
 
 | Product | What | For | Repo |
 |---------|------|-----|------|
-| **Accuracy** | Runtime that intercepts AI agent errors with verification, multi-model consensus, and self-healing. 85% per-step × 12 steps = 14% success. Quorum fixes that. | Engineering teams | [quorum](https://github.com/quorumhq/quorum) |
+| **Accuracy** | Runtime that intercepts AI agent errors with verification, multi-model consensus, and self-healing. 85% per-step × 12 steps = 14% success. Quorum fixes that. | Engineering teams | [quorum-accuracy](https://github.com/quorumhq/quorum-accuracy) |
 | **Insights** | AI-powered product analytics intelligence. Connects to PostHog, Amplitude, or any analytics source. Tells you *what's driving your metrics* — not just what happened. | Product teams | [quorum-insights](https://github.com/quorumhq/quorum-insights) |
 | **Actions** | Automated playbook engine. Monitors your metrics, intervenes when things go wrong, measures the result. | Growth teams | [quorum-actions](https://github.com/quorumhq/quorum-actions) |
 
