@@ -22,14 +22,24 @@ export OPENAI_BASE_URL=http://localhost:8741/v1
 python my_agent.py  # your code, unchanged, now verified
 ```
 
-### Repos
+### Products
+
+| Product | What | Repo |
+|---------|------|------|
+| **Accuracy** | Rust runtime — verification, consensus, self-healing, pipeline orchestration | [quorum](https://github.com/quorumhq/quorum) |
+| **Insights** | AI-powered product analytics. Connects to PostHog/Amplitude/any source. | [quorum-insights](https://github.com/quorumhq/quorum-insights) |
+| **Actions** | Automated playbook engine. Monitors metrics, intervenes, measures. | [quorum-actions](https://github.com/quorumhq/quorum-actions) |
+
+### Ecosystem
 
 | Repo | What |
 |------|------|
-| [agent-chaos](https://github.com/quorumhq/agent-chaos) | Scan agent codebases for accuracy anti-patterns |
-| *quorum-core* | Rust runtime — verification, consensus, self-healing *(coming soon)* |
-| *quorum-proxy* | OpenAI-compatible verification proxy *(coming soon)* |
-| *quorum-python* | Python SDK + framework integrations *(coming soon)* |
+| [open-agent-traces](https://github.com/quorumhq/open-agent-traces) | Open trace format spec for AI agent accuracy — community standard |
+| [quorum-pi](https://github.com/quorumhq/quorum-pi) | Quorum extension for [pi](https://github.com/mariozechner/pi-coding-agent) coding agent |
+| [quorum-vercel](https://github.com/quorumhq/quorum-vercel) | Middleware for Vercel AI SDK |
+| [quorum-dify](https://github.com/quorumhq/quorum-dify) | Verification plugin for Dify |
+| [n8n-nodes-quorum](https://github.com/quorumhq/n8n-nodes-quorum) | Verification node for n8n workflows |
+| [quorum-coze](https://github.com/quorumhq/quorum-coze) | Plugin for ByteDance Coze |
 
 ### Links
 
@@ -37,4 +47,4 @@ python my_agent.py  # your code, unchanged, now verified
 - 📐 [The compound accuracy calculator](https://quorumhq.xyz/accuracy)
 - 📖 [Documentation](https://quorumhq.xyz/docs)
 
-Open core — MIT-licensed runtime, commercial cloud. Built by the team behind [Avail](https://availproject.org).
+Open core — MIT-licensed runtime, commercial cloud.
